@@ -10,26 +10,26 @@
     height: 960px;
     left: 255px;
     top: 40px;
-    padding: 50px 100px 50px 100px;
+    padding: 40px 100px 50px 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
     
     background: #FFFFFF;
     border: 1px solid #AACDFF;
-    box-sizing: border-box;
     box-shadow: 7px 7px 39px rgba(0, 104, 255, 0.25);
     border-radius: 20px;
 }
 
 .title {
-    position: absolute;
+    width: 105%;
     left: 90px;
-    top: 50px;
+    top: 85px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    margin-top: 16px;
+    text-align: center;
 }
 
 .box__title {
@@ -41,7 +41,6 @@
     font-weight: bold;
     font-size: 32px;
     line-height: 47px;
-
     color: #0068FF;
 }
 
