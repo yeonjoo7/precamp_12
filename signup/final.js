@@ -86,9 +86,6 @@ let onBoard = () => {
     const city = document.getElementById("selectCity").value;
     var checked_gender = document.querySelector('input[name = "genderOption"]:checked');
 
-    if (!emailVal(email) && name != "" && pw1 === pw2 && pw1 != "" && city != "지역을 선택하세요" && checked_gender != null) {
-        alert("가입 신청이 완료되었습니다!")
-    }
     if (email == "") {
         document.getElementById("failemail").innerText = "이메일 주소를 입력해 주세요."
     } else if (emailVal(email)) {
@@ -123,5 +120,8 @@ let onBoard = () => {
         document.getElementById("failgender").innerText = "성별을 선택해 주세요."
     } else {
         document.getElementById("failgender").innerText = ""
+    }
+    if (!emailVal(email) && name != "" && pw1 === pw2 && pw1 != "" && city != "지역을 선택하세요" && checked_gender != null) {
+        alert("가입 신청이 완료되었습니다!")
     }
 }
