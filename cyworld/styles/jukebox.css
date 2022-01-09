@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    padding: 20px 30px 30px 30px;
+}
+
+.wrapper__up {
+    height: 220px;
+}
+
+.wrapper__titles {
+    display: flex;
+    flex-direction: row;
+}
+.wrapper__title {
+    width: 74px;
+    height: 17px;
+    font-family: Malgun Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 17px;
+    color: #55B2D4;
+}
+
+.wrapper__subtitle {
+    width: 120px;
+    height: 8px;
+    font-family: Sci Fied Bitmap;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 8px;
+    letter-spacing: -0.08em;
+    color: #000000;
+    padding: 5px 0px 0px 5px;    
+}
+
+.divideLine {
+    position: absolute;
+    width: 434px;
+    height: 0px;
+    left: 31px;
+    top: 43px;
+    border: 1px solid #999999;    
+}
+
+.wrapper__up__albums {
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    padding: 20px 5px 0px 20px;
+}
+
+.up__albums {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    margin: 0px 15px 10px 5px;
+}
+
+.up__albums__title {
+    width: 120px;
+    height: 15px;
+    font-family: Malgun Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 15px;
+    /* identical to box height */
+    margin-bottom: 2px;
+    text-align: center;
+    
+    color: #0F465E;
+}
+
+.up__albums__artist {
+    width: 50px;
+    height: 13px;
+    font-family: Malgun Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+    color: #999999;
+}
+
+.wrapper__down {
+    height: 182px;
+}
+
+.wrapper__down__main {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    padding: 2px 20px 0px 25px;
+
+    width: 434px;
+    height: 20px;
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid #999999;        
+    background: #EEEEEE;
+}
+
+.down__main__num, .down__main__song, .down__main__artist {
+    font-family: Malgun Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 13px;
+    color: #999999;
+    margin-left: 30px;  
+}
+
+.down__main__artist {
+    margin-left: 175px;
+}
+
+.down__list__element {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    padding: 2px 20px 0px 25px;
+
+    width: 434px;
+    height: 20px;
+}
+
+input[type="checkbox"] {
+    size: 10px;
+}
+.down__list__num, .down__list__song, .down__list__artist {
+    font-family: Malgun Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 13px;
+    color: #0F465E;
+    margin-left: 30px;  
+}
+
+.down__list__artist {
+    position: absolute;
+    left: 314px;
+}
+
+hr {
+    width: 434px;
+    height: 0px;    
+    border: 1px dashed #999999;
+}

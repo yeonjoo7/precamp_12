@@ -1,0 +1,195 @@
+* {
+    box-sizing: border-box;
+    margin:0px;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    padding: 20px 30px 30px 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrapper__header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.header__title {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.divideLine {
+    width: 100%;
+    border-top: 1px solid gray;
+}
+
+.title {
+    color: #55b2d4;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.subtitle {
+    font-size: 8px;
+    padding-left: 5px;
+}
+
+.game__container {
+    width: 222px;
+    height: 168px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.game__title {
+    width: 44px;
+    height: 15px;
+    
+    font-family: Malgun Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #000000;
+}
+
+.game__subtitle {
+    width: 90px;
+    height: 13px;
+    
+    font-family: Malgun Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+    
+    color: #999999;
+}
+
+.word__result {
+    font-family: Malgun Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    color: #999999;
+}
+
+.word__text {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.textbox {
+    width: 136px;
+    height: 24px;
+    padding-left: 8px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Malgun Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 15px;
+    color: #999999;
+}
+
+.search {
+    width: 38px;
+    height: 24px;
+    
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Malgun Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #020101;
+}
+
+.lotto__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px;
+}
+
+.selected__number {
+    width: 130px;
+    height: 21px;
+    
+    background: #FFE400;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    padding: 2px 2px 0px 8px;
+}
+
+.random__number {
+    font-family: Malgun Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.get__number {
+    width: 62px;
+    height: 24px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Malgun Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    
+    color: #010101;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>파이널 과제!</title>
+    <link href="./final.css" rel="stylesheet">
+    <script src="./final.js"></script>
+</head>
+<body>
+    <div class="box">
+        <div class="title">
+            <a href="https://codebootcamp.co.kr/home" target=”_black”><img width=200px src="./codecamp_logo.png"></a>
+            <div class="box__title">&nbsp;회원가입</div>
+        </div>
+        <br><br><br><br>
+        <div class="wrapper"  style="display: flex; flex-direction:column; align-items: center;">
+            <input id="email" class="wrapper__text" type="text" placeholder="이메일을 입력해 주세요.">
+            <div id="failemail" class="inputFail"></div>
+            <input id="name" class="wrapper__text" type="text" placeholder="이름을 입력해 주세요.">
+            <div id="failname" class="inputFail"></div>
+            <input id="password1" class="wrapper__text" type="password" placeholder="비밀번호를 입력해 주세요.">
+            <div id="failpw1" class="inputFail"></div>
+            <input id="password2" class="wrapper__text" type="password" placeholder="비밀번호를 다시 입력해 주세요.">
+            <div id="failpw2" class="inputFail"></div>
+        </div>
+        <br>
+        <div class="phoneval">
+            <div class="phoneval__phone">
+                <input type="tel" id="phone1" oninput="changeFocus1()" maxlength="3">
+                <div class="divide"></div>
+                <input type="tel" id="phone2" oninput="changeFocus2()" maxlength="4">
+                <div class="divide"></div>
+                <input type="tel" id="phone3" oninput="activeBtn()" maxlength="4">
+            </div>
+            <br>
+            <div class="phoneval__flex">
+                <div class="phoneval__val">
+                    <div id="auth" class="phoneval__num">000000</div>
+                    <button id="valnum" class="phoneval__btn" disabled=true onclick="pressedBtn()">인증번호 전송</button>
+                </div>
+                <br>
+                <div class="phoneval__check">
+                    <div id="time" class="phoneval__num">03:00</div>
+                    <button id="finish" class="phoneval__btn" onclick="joinable()" disabled=true>인증완료</button>
+                </div>                
+            </div>
+        </div>
+        <br>
+        <select id="selectCity">
+            <option disabled="true" style="color: #d2d2d2;" selected="true">지역을 선택하세요</option>
+            <option>서울</option>
+            <option>경기</option>
+            <option>인천</option>
+        </select>
+        <div id="failcity" class="inputFail"></div>
+        <br>
+        <div class="box__genderbox">
+            <input id="genderW" type="radio" name="genderOption" class="gender">여성
+            <input id="genderM" type="radio" name="genderOption" class="gender">남성
+        </div>
+        <div id="failgender" class="inputFail"></div>
+        <br><hr><br>
+        <button id="joinBtn" class="join" onclick="onBoard()" disabled=true>가입하기</button>
+    </div>
+</body>
+</html>
