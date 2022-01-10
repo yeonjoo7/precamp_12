@@ -1,4 +1,4 @@
-### 코딩비기너 코스 Html, CSS, Javascript 과제물
+### 코드캠프 코딩비기너 코스 Html, CSS, Javascript 과제물
 
 
 
